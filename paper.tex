@@ -1,9 +1,15 @@
 \documentclass{article}
 \usepackage[dutch]{babel}
 \usepackage[utf8]{inputenc}
-
+\usepackage{fancyhdr}
+\usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{tabto}
+% \addbibresource{references.bib}
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
 
 \begin{document}
     
@@ -35,7 +41,14 @@
             \includegraphics[width=0.3\textwidth]{logo.png}
         \end{flushright}
     \end{titlepage}
+
+    % Inhoudsopgave
     \tableofcontents
+    \newpage
+
+    % Start nummering
+    \setcounter{page}{1}
+
     \section{Literatuur}
     \subsection{Inleiding}
     Onze paper gaat over project management in systeembeheerprojecten. 
@@ -51,6 +64,53 @@
     \subsection{Samenvatting}
     De ontwikkeling van Agile is ontstaan ​​uit de collectieve wijsheid van de softwaregemeenschap en de beoefenaars die pleitten voor de voordelen van de Agile methoden. 
     Sindsdien hebben Agile methoden theoretische ondersteuning gekregen voor enkele van die genoemde voordelen. \autocite{STRAY2022107058}
+
     \subsection{Hypothese}
+
+    \section{Reflectie}
+
+    \section{Voorbereidingen interviews}
+
+We hadden actief gezocht naar mensen die ervaring hadden met projectmanagement in systeembeheerprojecten.
+Doordat er binnen de groep al enkele mensen waren wiens familieleden in de IT-sector werken, was het niet moeilijk om mensen te vinden die bereid waren om ons te helpen met ons onderzoek.
+Zo kwamen we op twee bedrijven uit, namelijk Corilus en bij Gemeente Deinze bij de ict dienst. \newline
+Als voorbereiding op de interviews hadden we via Proton Drive een gedeeld bestand aangemaakt waarin iedereen naar behoren zijn vragen kon neerschrijven of de andere vragen aanpassen. 
+Al snel kwamen we tot een collectie van vragen die we wilden stellen aan de bedrijven.
+De antwoorden op de vragen werden echter niet in dit bestand genoteerd, maar tijdens het interview zelf op papier vastgelegd.
+
+\subsection{Vragenlijst}
+\begin{enumerate}
+    \item Wat is uw rol binnen het bedrijf, en hoe lang bent u al actief binnen deze functie?
+    \item Welke relevante opleidingen en certificaten kan u al afvinken?
+    \item Welke ervaring heeft u zelf met projectmanagement in systeembeheer?
+    \item Kan u zelf een voorbeeld geven van een project dat u succesvol heeft kunnen beëindigen?
+    \begin{itemize}
+        \item \hspace{0.5cm} Indien ja: Wat was uw rol binnen dit project?
+    \end{itemize}
+    \item Wat zijn de projecten waar uw team of u binnen uw team momenteel aan werkt?
+    \begin{itemize}
+        \item \hspace{0.5cm} Met hoeveel mensen zit u in een team, en welke rolverdelingen zijn er?
+    \end{itemize}
+    \item Welke managementmethodologieën gebruiken jullie meest binnen jullie bedrijf?
+    \begin{itemize}
+        \item \hspace{0.5cm} Eventuele voor- en nadelen?
+    \end{itemize}
+    \item Welke methodologieën gebruiken jullie voor de huidige projecten?
+    \item Hoe verloopt de implementatie van deze methodologieën?
+    \item Zijn deze methodes toepasbaar op elk project?
+    \begin{itemize}
+        \item \hspace{0.5cm} Indien dit niet zo is: Hoe pak je dit aan?
+    \end{itemize}
+    \item Zijn er verschillen tussen softwaregerichte projecten en systeembeheergerichte projecten?
+    \begin{itemize}
+        \item \hspace{0.5cm} Indien ja: Hoe pak je dit aan?
+    \end{itemize}
+\end{enumerate}
+
+
+    % Referentielijst
+    \newpage
+    \printbibliography
+
 \end{document}
 
