@@ -5,7 +5,8 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{tabto}
-% \addbibresource{references.bib}
+\usepackage[style=numeric,backend=biber]{biblatex}
+\addbibresource{references.bib}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -51,6 +52,7 @@
 
     \section{Literatuur}
     \subsection{Inleiding}
+
     Onze paper gaat over project management in systeembeheerprojecten. 
     Project management is van uiterst belang binnen IT-projecten en het succesvol voltooien van deze projecten. 
     Het stelt teams in staat om complexe taken te plannen, structureren en coördineren om op deze manier het doel voor ogen op een efficiënte manier te bereiken. \newline
@@ -61,11 +63,47 @@
     Zo gaan we zowel de gelijkenissen als de verschillen proberen te achterhalen. \newline
     Het doel van deze studie is om een beter inzicht te bieden in hoe project management kan bijdragen aan het succes van systeembeheerprojecten. 
 
+    \subsection{Projectmanagementmethodologieën in systeembeheerprojecten}
+
+    De ISM-methode (Integrated Service Management) biedt een raamwerk om IT-dienstverlening te optimaliseren door People, Process en Product te integreren. 
+    Zoals beschreven door \textcite{hoving2010ism}, combineert de methode een gestandaardiseerde aanpak met flexibiliteit door tools zoals servicedesksoftware en coaching in te zetten.
+    ISM is toepasbaar in systeembeheerprojecten vanwege de focus op eenvoud en structuur dit is belangrijk bij migraties of upgrades zoals een nieuwe OS-versie. 
+    Op deze manier wordt benadrukt wat de behoefte aan methoden is die naast softwareontwikkeling ook toepasbaar zijn in operationele IT-projecten. \newline
+
+    In een vergelijkbare context zijn tools zoals ClickUp en Wrike onderzocht voor hun bruikbaarheid in projectbeheer. 
+    Uit een studie van \textcite{pasaric2022comparison} blijkt dat deze tools effectief zijn voor het combineren van plannings- en beheerfunctionaliteiten. 
+    Hoewel ze in eerste instantie zijn ontworpen voor generiek projectmanagement, tonen ze potentieel voor gebruik in systeembeheerprojecten door hun aanpassingsvermogen en integratiemogelijkheden.
+
+    \subsection{Praktische toepassing van ISM en hybride methodologieën}
+
+    Bij complexe systeembeheerprojecten, zoals cloudmigraties, speelt de keuze van een methodologie een cruciale rol. 
+    ISM biedt hierbij een gestructureerd raamwerk, terwijl hybride aanpakken, zoals beschreven door \textcite{reiff2022hybrid}, flexibiliteit toevoegen door elementen van agile en traditionele methodologieën te combineren. 
+    Deze aanpak is nuttig in projecten met onvoorspelbare vereisten, zoals het beheren van afhankelijkheden tussen verschillende systemen of teams. \newline
+
+    Een belangrijke uitdaging van hybride methodologieën is de complexiteit van implementatie. 
+    Dit vraagt om een hoge mate van kennis en communicatie binnen teams \autocite{reiff2022hybrid}. 
+    Daartegenover staat dat iteratieve planningsmethoden en de nadruk op klanttevredenheid aanzienlijke voordelen bieden, vooral in dynamische omgevingen.
+
+    \subsection{Vergelijking projectmanagementtools}
+
+    Zoals \textcite{pasaric2022comparison} concludeerden, zijn tools zoals ClickUp en Wrike het meest geschikt voor organisaties die een breed scala aan functionaliteiten vereisen. 
+    Tools zoals Trello die zeer gebruiksvriendelijk zijn, missen vaak kritieke functies waarvan kostenbeheer er éen is. 
+    Sommige van deze functies zullen natuurlijk een meerwaarde hebben bij systeembeheerprojecten.
+
     \subsection{Samenvatting}
+
     De ontwikkeling van Agile is ontstaan ​​uit de collectieve wijsheid van de softwaregemeenschap en de beoefenaars die pleitten voor de voordelen van de Agile methoden. 
     Sindsdien hebben Agile methoden theoretische ondersteuning gekregen voor enkele van die genoemde voordelen. \autocite{STRAY2022107058}
 
-    \subsection{Hypothese}
+    \section{Hypothese}
+
+    Traditionele project management zoals agile, waterfall en scrum zijn logischerwijs ontworpen voor softwareontwikkeling. 
+    Wij gaan er van uit dat het mogelijk is om, met enige aanpassingen, deze methodologieën ook toe te passen op systeembeheerprojecten.
+    Er zal gebruik gemaakt worden van gelijkaardige processen. (Planning, coördinatie en implementatie)
+    Natuurlijk zijn er buiten gelijkenissen ook verschillen tussen software-ontwikkeling en systeembeheerprojecten. \newline
+    Zo zullen er zeker gespecialiseerde aanpassingen nodig zijn om rekening te houden met de technische aard.
+    Hoewel de kernprincipes van projectmanagement grotendeels overeind blijven, zullen de rollen, risicoanalyses en 
+    succesfactoren variëren tussen softwaregerichte en systeembeheergerichte projecten.
 
     \section{Reflectie}
 
@@ -78,35 +116,38 @@ Als voorbereiding op de interviews hadden we via Proton Drive een gedeeld bestan
 Al snel kwamen we tot een collectie van vragen die we wilden stellen aan de bedrijven.
 De antwoorden op de vragen werden echter niet in dit bestand genoteerd, maar tijdens het interview zelf op papier vastgelegd.
 
-\subsection{Vragenlijst}
-\begin{enumerate}
-    \item Wat is uw rol binnen het bedrijf, en hoe lang bent u al actief binnen deze functie?
-    \item Welke relevante opleidingen en certificaten kan u al afvinken?
-    \item Welke ervaring heeft u zelf met projectmanagement in systeembeheer?
-    \item Kan u zelf een voorbeeld geven van een project dat u succesvol heeft kunnen beëindigen?
-    \begin{itemize}
-        \item \hspace{0.5cm} Indien ja: Wat was uw rol binnen dit project?
-    \end{itemize}
-    \item Wat zijn de projecten waar uw team of u binnen uw team momenteel aan werkt?
-    \begin{itemize}
-        \item \hspace{0.5cm} Met hoeveel mensen zit u in een team, en welke rolverdelingen zijn er?
-    \end{itemize}
-    \item Welke managementmethodologieën gebruiken jullie meest binnen jullie bedrijf?
-    \begin{itemize}
-        \item \hspace{0.5cm} Eventuele voor- en nadelen?
-    \end{itemize}
-    \item Welke methodologieën gebruiken jullie voor de huidige projecten?
-    \item Hoe verloopt de implementatie van deze methodologieën?
-    \item Zijn deze methodes toepasbaar op elk project?
-    \begin{itemize}
-        \item \hspace{0.5cm} Indien dit niet zo is: Hoe pak je dit aan?
-    \end{itemize}
-    \item Zijn er verschillen tussen softwaregerichte projecten en systeembeheergerichte projecten?
-    \begin{itemize}
-        \item \hspace{0.5cm} Indien ja: Hoe pak je dit aan?
-    \end{itemize}
-\end{enumerate}
+    \subsection{Vragenlijst}
+    \begin{enumerate}
+        \item Wat is uw rol binnen het bedrijf, en hoe lang bent u al actief binnen deze functie?
+        \item Welke relevante opleidingen en certificaten kan u al afvinken?
+        \item Welke ervaring heeft u zelf met projectmanagement in systeembeheer?
+        \item Kan u zelf een voorbeeld geven van een project dat u succesvol heeft kunnen beëindigen?
+        \begin{itemize}
+            \item \hspace{0.5cm} Indien ja: Wat was uw rol binnen dit project?
+        \end{itemize}
+        \item Wat zijn de projecten waar uw team of u binnen uw team momenteel aan werkt?
+        \begin{itemize}
+            \item \hspace{0.5cm} Met hoeveel mensen zit u in een team, en welke rolverdelingen zijn er?
+        \end{itemize}
+        \item Welke managementmethodologieën gebruiken jullie meest binnen jullie bedrijf?
+        \begin{itemize}
+            \item \hspace{0.5cm} Eventuele voor- en nadelen?
+        \end{itemize}
+        \item Welke methodologieën gebruiken jullie voor de huidige projecten?
+        \item Hoe verloopt de implementatie van deze methodologieën?
+        \item Zijn deze methodes toepasbaar op elk project?
+        \begin{itemize}
+            \item \hspace{0.5cm} Indien dit niet zo is: Hoe pak je dit aan?
+        \end{itemize}
+        \item Zijn er verschillen tussen softwaregerichte projecten en systeembeheergerichte projecten?
+        \begin{itemize}
+            \item \hspace{0.5cm} Indien ja: Hoe pak je dit aan?
+        \end{itemize}
+    \end{enumerate}
 
+    \section{Conclusie}
+    
+    Hallo, ik ben een conclusie.
 
     % Referentielijst
     \newpage
