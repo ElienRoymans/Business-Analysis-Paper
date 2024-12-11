@@ -1,0 +1,180 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{hoving2010ism}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=228867a573b744cbc4a870b1a1985d45}{%
+           family={Hoving},
+           familyi={H\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8d9d6094cd9c3f66c2881267873b610a}{%
+           family={Bon},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5f1bf767718faf191822a7adcf43209}
+      \strng{fullhash}{e5f1bf767718faf191822a7adcf43209}
+      \strng{fullhashraw}{e5f1bf767718faf191822a7adcf43209}
+      \strng{bibnamehash}{e5f1bf767718faf191822a7adcf43209}
+      \strng{authorbibnamehash}{e5f1bf767718faf191822a7adcf43209}
+      \strng{authornamehash}{e5f1bf767718faf191822a7adcf43209}
+      \strng{authorfullhash}{e5f1bf767718faf191822a7adcf43209}
+      \strng{authorfullhashraw}{e5f1bf767718faf191822a7adcf43209}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{People}
+      \field{title}{De ISM-Methode}
+      \field{volume}{79}
+      \field{year}{2010}
+      \field{pages}{96}
+      \range{pages}{1}
+    \endentry
+    \entry{pasaric2022comparison}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=cbf705fd758cf9b7242f3708a7adb175}{%
+           family={Pasarić},
+           familyi={P\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=59eb3eb763b2a10dfe59c590140172ec}{%
+           family={Pušanik},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{14c365056579c62b98ab17c79e747524}
+      \strng{fullhash}{14c365056579c62b98ab17c79e747524}
+      \strng{fullhashraw}{14c365056579c62b98ab17c79e747524}
+      \strng{bibnamehash}{14c365056579c62b98ab17c79e747524}
+      \strng{authorbibnamehash}{14c365056579c62b98ab17c79e747524}
+      \strng{authornamehash}{14c365056579c62b98ab17c79e747524}
+      \strng{authorfullhash}{14c365056579c62b98ab17c79e747524}
+      \strng{authorfullhashraw}{14c365056579c62b98ab17c79e747524}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CEUR Workshop Proceedings}
+      \field{title}{Comparison of Project Management Tools}
+      \field{year}{2022}
+    \endentry
+    \entry{reiff2022hybrid}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f94203825feef473549cec43bbdbd57e}{%
+           family={Reiff},
+           familyi={R\bibinitperiod},
+           given={Janine},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4721228a79ee2e195f851421eca8efbb}{%
+           family={Schlegel},
+           familyi={S\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{fullhash}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{fullhashraw}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{bibnamehash}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{authorbibnamehash}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{authornamehash}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{authorfullhash}{46d15c3b6bb5678798b1d367d95f0adc}
+      \strng{authorfullhashraw}{46d15c3b6bb5678798b1d367d95f0adc}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of information systems and project management}
+      \field{number}{2}
+      \field{title}{Hybrid project management--a systematic literature review}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{45\bibrangedash 63}
+      \range{pages}{19}
+    \endentry
+    \entry{STRAY2022107058}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=9b2182fbf10f113d18d306617101b1e9}{%
+           family={Stray},
+           familyi={S\bibinitperiod},
+           given={Viktoria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8d60892fa34686ae25e36f849dce7659}{%
+           family={Hoda},
+           familyi={H\bibinitperiod},
+           given={Rashina},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a177e744981125ec1a580b5691d46d46}{%
+           family={Paasivaara},
+           familyi={P\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aa1ba53836555265fc9cc5e3006c9761}{%
+           family={Lenarduzzi},
+           familyi={L\bibinitperiod},
+           given={Valentina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5c15163e56395c3447977addc831a45d}{%
+           family={Mendez},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f174664ee72a1501aa14c79f3962cbb}
+      \strng{fullhash}{02a892e8c57ddcf5b993cf908074e1a2}
+      \strng{fullhashraw}{02a892e8c57ddcf5b993cf908074e1a2}
+      \strng{bibnamehash}{9f174664ee72a1501aa14c79f3962cbb}
+      \strng{authorbibnamehash}{9f174664ee72a1501aa14c79f3962cbb}
+      \strng{authornamehash}{9f174664ee72a1501aa14c79f3962cbb}
+      \strng{authorfullhash}{02a892e8c57ddcf5b993cf908074e1a2}
+      \strng{authorfullhashraw}{02a892e8c57ddcf5b993cf908074e1a2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last two decades, agile software development has gained popularity among software engineering researchers and practitioners. However, the development and use of theories in agile research remain relatively low. While analyzing publications on agile software development in the Scopus database from the last decade, we found that only 7% of the papers used or developed a theory. This trend seems stable. However, it is promising that most theory-centric studies use or propose theories to address cognitive and behavioral aspects of people working in agile development. We argue that these aspects build fundamental pillars in agile software development. In this special section, we introduce extended versions of four papers selected from the XP2020 Conference. These papers make valuable contributions to aspects of learning and behavior in agile software development. We encourage researchers to be more theory-centric in their future empirical studies of agile methods and practices by familiarizing themselves with existing theories and applying and developing theories. This way, they can contribute to a reliable, evidence-based body of knowledge in our community.}
+      \field{issn}{0950-5849}
+      \field{journaltitle}{Information and Software Technology}
+      \field{title}{Theories in Agile Software Development: Past, Present, and Future Introduction to the XP 2020 Special Section}
+      \field{volume}{152}
+      \field{year}{2022}
+      \field{pages}{107058}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.infsof.2022.107058
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0950584922001689
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0950584922001689
+      \endverb
+      \keyw{agile software development,theories,grounded theory,review}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
